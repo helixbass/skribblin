@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "helixbassment",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Helixbassment blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Julian Rosse <julian@helixbass.net>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/helixbass/skribblin/issues"
   },
   "dependencies": {
     "ad-hok": "^0.0.16",
@@ -51,7 +51,7 @@
     "eslint-plugin-react": "^7.13.0",
     "prettier": "^1.17.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/helixbass/skribblin#readme",
   "keywords": [
     "gatsby"
   ],
@@ -59,7 +59,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/helixbass/skribblin.git"
   },
   "scripts": {
     "build": "gatsby build",
