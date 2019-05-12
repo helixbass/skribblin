@@ -3,7 +3,7 @@ module.exports = {
     title: `Helixbassment`,
     author: `Julian Rosse`,
     description: `Articles on React, development, etc.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `http://helixbass.net/blog`,
     social: {
       twitter: `helixbass`,
     },
@@ -76,4 +76,5 @@ module.exports = {
       },
     },
   ],
+  pathPrefix: '/blog',
 }
