@@ -1,0 +1,29 @@
+parser: babel-eslint
+plugins:
+  - known-imports
+  # - styles-object
+  # - prop-types-shorthand
+  - ad-hok
+extends:
+  - blackbird
+  - plugin:known-imports/recommended-react
+rules:
+  no-use-before-define: off
+  react/prop-types: off
+  react/no-danger: off
+  # known-imports/no-unused-vars: [error, {ignoreRestSiblings: true}]
+  # styles-object/no-unused-styles: error
+  # styles-object/no-undef-styles: error
+  # prop-types-shorthand/no-string-prop-types: error
+  ad-hok/no-unnecessary-flowmax: error
+  ad-hok/needs-flowmax: error
+  # jsx-a11y/label-has-for: off
+  # jsx-a11y/label-has-associated-control: error
+# settings:
+#   import/resolver:
+#     babel-module: {}
+#   known-imports/blank-line-before-local-imports: true
+globals:
+  __PATH_PREFIX__: true
+  __BASE_PATH__: true
+  __ASSET_PREFIX__: true

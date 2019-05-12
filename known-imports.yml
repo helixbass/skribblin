@@ -1,0 +1,167 @@
+imports:
+  flow: lodash/fp
+  fassign:
+    module: lodash/fp
+    name: assign
+  fassignAll:
+    module: lodash/fp
+    name: assignAll
+  ffilter:
+    module: lodash/fp
+    name: filter
+  freject:
+    module: lodash/fp
+    name: reject
+  fforEach:
+    module: lodash/fp
+    name: forEach
+  ffromPairs:
+    module: lodash/fp
+    name: fromPairs
+  fget:
+    module: lodash/fp
+    name: get
+  fgetOr:
+    module: lodash/fp
+    name: getOr
+  fgroupBy:
+    module: lodash/fp
+    name: groupBy
+  fpick:
+    module: lodash/fp
+    name: pick
+  fpickBy:
+    module: lodash/fp
+    name: pickBy
+  fkeys:
+    module: lodash/fp
+    name: keys
+  fmap:
+    module: lodash/fp
+    name: map
+  fsortBy:
+    module: lodash/fp
+    name: sortBy
+  fsplit:
+    module: lodash/fp
+    name: split
+  fmapValues:
+    module: lodash/fp
+    name: mapValues
+  fmapKeys:
+    module: lodash/fp
+    name: mapKeys
+  fflatten:
+    module: lodash/fp
+    name: flatten
+  funiqBy:
+    module: lodash/fp
+    name: uniqBy
+  ftake:
+    module: lodash/fp
+    name: take
+  ffind:
+    module: lodash/fp
+    name: find
+  fsome:
+    module: lodash/fp
+    name: some
+  fjoin:
+    module: lodash/fp
+    name: join
+  fmin:
+    module: lodash/fp
+    name: min
+  fmax:
+    module: lodash/fp
+    name: max
+  fsum:
+    module: lodash/fp
+    name: sum
+  ftrimStart:
+    module: lodash/fp
+    name: trimCharsStart
+  flast:
+    module: lodash/fp
+    name: last
+  ffirst:
+    module: lodash/fp
+    name: first
+  fvalues:
+    module: lodash/fp
+    name: values
+  fupperFirst:
+    module: lodash/fp
+    name: upperFirst
+  fomit:
+    module: lodash/fp
+    name: omit
+  ffindIndex:
+    module: lodash/fp
+    name: findIndex
+  isEmpty: lodash
+  first: lodash
+  isPlainObject: lodash
+  isString: lodash
+  isFunction: lodash
+  isArray: lodash
+  mapValues: lodash
+  identity: lodash
+  reverse: lodash
+  last: lodash
+  map: lodash
+  min: lodash
+  max: lodash
+  includes: lodash
+  filter: lodash
+  find: lodash
+  findIndex: lodash
+  every: lodash
+  entries: lodash
+  range: lodash
+  delay: lodash
+  defer: lodash
+  forEach: lodash
+  each: lodash
+  get: lodash
+  set: lodash
+  random: lodash
+  without: lodash
+  upperFirst: lodash
+  camelCase: lodash
+  isUndefined: lodash
+  Fragment: react
+  Suspense: react
+  useEffect: react
+  useState: react
+  useRef: react
+  forwardRef: react
+  createFactory: react
+  createContext: react
+  ReactDOM:
+    module: react-dom
+    default: true
+  PropTypes:
+    module: prop-types
+    default: true
+  css: '@emotion/core'
+  ClassNames: '@emotion/core'
+  keyframes: '@emotion/core'
+  addState: ad-hok
+  addStateHandlers: ad-hok
+  addProps: ad-hok
+  addRef: ad-hok
+  addHandlers: ad-hok
+  addEffect: ad-hok
+  addPropTypes: ad-hok
+  addContext: ad-hok
+  flowMax: ad-hok
+  branch: ad-hok
+  renderNothing: ad-hok
+  returns: ad-hok
+# whitelist:
+#   - directory: src/
+#     allowed: [filename, named]
+#     prefix: ''
+blacklist:
+  - styles
