@@ -1,17 +1,34 @@
 import Typography from 'typography'
-import Wordpress2016 from 'typography-theme-wordpress-2016'
+import Lawton from 'typography-theme-lawton'
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    'a.gatsby-resp-image-link': {
-      boxShadow: `none`,
-    },
-  }
-}
+Lawton.baseLineHeight = 1.62
+Lawton.overrideThemeStyles = () => ({
+  'a.gatsby-resp-image-link': {
+    boxShadow: `none`,
+  },
+  a: {
+    color: '#1ca086',
+  },
+  h1: {
+    marginBottom: '1.7rem',
+  },
+  h3: {
+    marginTop: '1.33rem',
+  },
+  h4: {
+    marginBottom: '0.85rem',
+  },
+  code: {
+    fontSize: '0.95rem',
+  },
+  'pre code': {
+    fontSize: '0.85rem',
+  },
+})
 
-delete Wordpress2016.googleFonts
+// delete Lawton.googleFonts
 
-const typography = new Typography(Wordpress2016)
+const typography = new Typography(Lawton)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
@@ -19,5 +36,5 @@ if (process.env.NODE_ENV !== `production`) {
 }
 
 export default typography
-export const rhythm = typography.rhythm
-export const scale = typography.scale
+export const {rhythm} = typography
+export const {scale} = typography
